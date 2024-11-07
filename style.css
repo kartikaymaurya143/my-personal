@@ -1,0 +1,104 @@
+/* General styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: url('DALL·E\ 2024-11-07\ 16.48.48\ -\ A\ high-resolution\ background\ image\ with\ a\ soft\ pink\ and\ peach\ gradient\,\ featuring\ a\ gentle\ overlay\ of\ heart\ shapes\ in\ various\ shades\ of\ pink\,\ similar\ .webp') no-repeat center center fixed;
+    background-size: cover;
+    font-family: Arial, sans-serif;
+  }
+  
+  .container {
+    text-align: center;
+    color: #8B0000; /* Dark red for headings */
+  }
+  
+  h1 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: #8B0000; /* Dark red */
+  }
+  
+  img {
+    width: 200px;
+    margin-bottom: 20px;
+  }
+  
+  .button-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+  
+  /* Button Styling */
+  .button-19 {
+    appearance: button;
+    background-color: #8B0000; /* Dark red color */
+    border: 2px solid black; /* Black outline */
+    border-radius: 16px;
+    box-sizing: border-box;
+    color: #FFFFFF; /* White text color */
+    cursor: pointer;
+    display: inline-block;
+    font-family: din-round, sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+    letter-spacing: .8px;
+    line-height: 20px;
+    margin: 0;
+    outline: none;
+    overflow: hidden;
+    padding: 13px 16px;
+    text-align: center;
+    text-transform: uppercase;
+    touch-action: manipulation;
+    transform: translateZ(0);
+    transition: filter .2s;
+    user-select: none;
+    -webkit-user-select: none;
+    vertical-align: middle;
+    white-space: nowrap;
+    width: 180px;
+    max-width: 100%;
+    position: relative;
+  }
+  
+  .button-19:hover:not(:disabled) {
+    filter: brightness(1.1);
+    -webkit-filter: brightness(1.1);
+  }
+  
+  .button-19:disabled {
+    cursor: auto;
+  }
+  
+  .button-19:active {
+    border-width: 2px;
+    background: #8B0000;
+  }
+  
+  /* Responsive Button Styles */
+  @media (max-width: 768px) {
+    .button-19 {
+      font-size: 14px;
+      padding: 10px 12px;
+      width: 150px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .button-19 {
+      font-size: 12px; /* Reduced font size for smaller screens */
+      padding: 8px 10px; /* Adjusted padding */
+      width: 140px; /* Slightly wider button to accommodate text */
+    }
+  }
+  
